@@ -17,7 +17,7 @@ Features Tested
 Technologies Used
 - WebdriverIO
 - JavaScript 
-- VSCode
+- VSCode 
 - DevOps tools
 
 
@@ -47,4 +47,13 @@ Run the following command to install all required dependencies:
 
 Copy code
 npm install
+
+How to run the project
+Ensure that you've added the necessary code to both page.js and createAnOrder.e2e.js.
+
+Update the server URL in wdio.conf.js to the new server address.
+
+Once everything is set, execute the following command in your terminal to start the test suite:
+
+npm run wdio
 
